@@ -5,3 +5,23 @@
 .text-box{
     font-size: 14px;
 }
+
+i.fa {
+    vertical-align: middle;
+}
+
+.left {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+.right {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
