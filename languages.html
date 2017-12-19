@@ -88,7 +88,7 @@
           <p>
             In 2015, 63.0% native speakers of German (of which 59.5% speak Swiss German and 10.4% Standard German at
             home); 22.7% French (mostly Swiss French, but including some Arpitan dialects); 8.4% Italian (mostly Swiss
-            Italian, but including Lombard dialects); and 0.6% Romansh.
+            Italian, but including Lombard dialects); and 0.6% Romansh. [1]
           </p>
           <table style="text-align:right; width: 100%">
             <tbody>
@@ -177,9 +177,18 @@
             native population in Graubünden in the east. The cantons of Fribourg, Bern and Valais are officially
             bilingual; the canton of Graubünden is officially trilingual.</p>
           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Map_Languages_CH.png" width="100%">
+
         </div>
+
       </div>
-      <hr>
+
+      <div class="row text-box">
+        <p>
+          You will see 4 different map blow. Each one represent one language distribution. In this visualizaion we have
+          used actual tweet counts.
+          So these graphs will be affected by population. Population * language ratio will be in count.
+        </p>
+      </div>
     </div>
 
   </div>
@@ -214,7 +223,20 @@
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+<div class="container">
+  <div class="row text-box">
+    <div class="col-lg-8 col-md-10 col-centered">
 
+      <p>
+        You can estimate French, German and Italian cities from these maps. Hoverer as you can see you cannot clearly be
+        sure about regions. Because the population of these regions is
+        very effective on these graphs. You can clearly see Geneva, Zurich and Ticino but how about others. In the
+        sections blow we will investigate language usage by its ratios.
+      </p>
+    </div>
+  </div>
+</div>
+<hr>
 
 <div class="container">
   <div class="row">
@@ -222,13 +244,15 @@
       <div class="post-preview">
         <a>
           <h4 class="post-title">
-            What is the ratio in between cantons for the languages?
+            What is the ratio in between cantons for the official languages?
           </h4>
           <h4 class="post-subtitle">
-            The four national languages of Switzerland are German, French, Italian and Romansh.
-            In the graph below we are seeing 4 different map. In each of them one language distribution is in use.
+            Okey we have investigate counts in the previous section. This time we will visualize language usage ratios
+            on the maps.
+            By this way we hope that we will see regions of Switzerland on the map.
           </h4>
         </a>
+
       </div>
     </div>
   </div>
@@ -263,8 +287,50 @@ var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
+<div class="container">
+  <div class="row text-box">
+    <div class="col-lg-8 col-md-10 col-centered">
+      <p>
+        By this way, we are trying to answer these question:
+
+      </p>
+      <p>
+      <ul>
+        <li>Depending on location, how ratios of languages of tweets change?</li>
+        <li>How do these change in different regions of Switzerland depending on official language (German, French, Italian, Romansh) of the region? (Use dataset about demographics of Switzerland)</li>
+      </ul>
+      <p>
+        You can clearly see the German and French spoken regions from the visualizations.
+        However Italian spoken regions are not separable as German nor French, probably they do not prefer to share
+        tweets their own language. For example, in the region of Ticino the usage of Italian language is not more then
+        20% of overall usage.
+      </p>
+
+    </div>
+
+  </div>
+</div>
+<hr>
 
 <!--OTHER LANGUAGES-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 col-centered">
+      <div class="post-preview">
+        <a>
+          <h4 class="post-title">
+            Where are the Foreigners?
+          </h4>
+          <h4 class="post-subtitle">
+            For the first time, Switzerland has 2 million foreigners living in its midst. As of last year, these non-Swiss – often the subject of political debate – accounted for nearly a quarter of the nation's 8.3 million population. However they are not equally distributed in the country. Can we find them by using their tweets. [2]
+          </h4>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class='tableauPlaceholder' id='viz1513690274352' style='position: relative'>
   <noscript><a href='#'><img alt='Dashboard 3 '
@@ -295,6 +361,26 @@ var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
+
+<div class="container">
+  <div class="row text-box">
+    <div class="col-lg-8 col-md-10 col-centered">
+      <p>
+        Most used foreign languages are English, Spanish, Sweden etc. There are many important problems on these numbres. First, Spranish usage is way more then Italian. Is it real or a problem of the data? On the data provided by Wikipedia,
+        we can clearly see that usage of Spanish is not more then one quarter of Italian usage. Or for example usage of Swedish language is not on the top 5 in the data provided by Wikipedia but in the data it is more then all other minor languages. It may be caused because of the errors on the language detection algorithm.
+
+      </p>
+      <p>
+        By this way, we are trying to answer these question:
+      </p>
+      <p>
+      <ul>
+        <li>Are there a significant number of tweets sent in languages which are not official languages in Switzerland? If there are, which languages are well represented and in which locations these tweets are sent?</li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
 
 
 <div class="left">

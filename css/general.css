@@ -25,3 +25,7 @@ i.fa {
 a:hover {
     text-decoration: none;
 }
+
+.row{
+    margin-bottom: 50px;
+}
